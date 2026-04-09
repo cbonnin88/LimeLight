@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_hr_data
+    description: 'Raw CSV uploads from the HRIS System'
+    database: limelight-hr-data
+    schema: raw_hr_data
+    tables:
+      - name: employees
+      - name: compensation
+      - name: offices

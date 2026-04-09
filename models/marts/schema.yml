@@ -1,0 +1,31 @@
+
+version: 2
+
+models:
+    - name: dim_employee_directory
+      description: "The primary 'Gold' table for People Analytics. Joins employees, compensation, offices locations"
+      columns:
+          - name: employee_id
+            description: "The unique primary key for each employee"
+            tests:
+                - unique
+                - not_null
+
+    - name: gender
+      description: "The gender identity of the employee."
+      tests:
+          - accepted_values:
+              arguments: ['Male','Female','Non-Binary']
+    
+    - name: FTE_salary
+      description: 'The Full-Time Equivalent annual salary in EUR'
+      tests:
+        - not_null
+    
+    - name: retention_risk_status
+      description: 'Flag indicating if a top performer is underpaid (High Risk vs Stable).'
+      tests:
+        - accepted_values:
+            arguments: ['High Risk','Stable']
+
+        

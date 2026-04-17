@@ -1,7 +1,8 @@
+<img width="300" height="200" alt="Gemini_Generated_Image_oo97ggoo97ggoo97" src="https://github.com/user-attachments/assets/32dad7dc-af78-4f47-8b3d-6e294cb0541e" />
+
 # 🌲 EcoPulse Systems: HR & People Analytics Pipeline
 ### End-to-End Modern Data Stack Project (GreenTech Industry)
 
-![EcoPulse Logo](https://raw.githubusercontent.com/username/repo/main/logo.png) **
 
 ## 📌 Overview
 EcoPulse Systems is a fictitious GreenTech company headquartered in France with 10,000 employees across 7 European countries. This project demonstrates a full-scale data engineering and analytics pipeline designed to solve two critical HR challenges: **Gender Pay Equity** and **Employee Retention (Churn Prediction).**
